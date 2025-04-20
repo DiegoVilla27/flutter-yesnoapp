@@ -1,16 +1,24 @@
-# yes_no_app
+# 🤖 YesNoApp
 
-A new Flutter project.
+YesNoApp is a simple **chat-like** Flutter application that interacts with a bot. Users can ask a question, and the bot responds with a random image showing either "Yes" or "No."
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- 💬 **Chat Interface**: A simple and clean chat interface where users can type their questions.
+- ✅ **Yes/No Response**: The bot responds with an image that says either "Yes" or "No."
+- 🎲 **Randomized Responses**: Each time you ask a question, the bot randomly generates one of two responses.
 
-A few resources to get you started if this is your first Flutter project:
+## 🧭 Screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Chat Screen**:
+  - The user types a question into a text input field.
+  - After sending the question, the bot replies with an image saying "Yes" or "No."
+  
+## 🛠 Architecture Overview
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app uses a simple architecture, focusing on the **UI** and **state management** to simulate a chat interface.
+
+### Main Layers:
+
+1. **UI Layer**: Contains all the widgets, including the chat input field, message bubbles, and response display.
+2. **Bot Response Logic**: The bot selects a random response ("Yes" or "No") and fetches the corresponding image.
